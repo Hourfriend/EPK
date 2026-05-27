@@ -191,10 +191,7 @@ body::before{
   color:var(--text);display:block;line-height:1;margin-bottom:8px;
   letter-spacing:.02em;
 }
-.stat-l{
-  font-family:'IBM Plex Mono',monospace;font-size:8px;
-  letter-spacing:.25em;color:var(--text-muted);text-transform:uppercase;
-}
+.stat-l{font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.25em;color:var(--accent);text-transform:uppercase}
 
 /* ── SECTIONS ── */
 .sec{padding:112px 52px}
@@ -473,7 +470,7 @@ input[type=range].vol-range::-moz-range-thumb{width:8px;height:8px;background:va
 
 @media(max-width:900px){.dl-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.dl-grid{grid-template-columns:1fr}}
-</style>
+.stat-l{color:var(--accent) !important}</style>
 </head>
 <body>
 
